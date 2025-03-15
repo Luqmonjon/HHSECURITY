@@ -461,7 +461,7 @@ export default function Home() {
                 <div>
                   <h3 className="font-medium mb-1">Bizning manzilimiz</h3>
                   <p className="text-sm text-muted-foreground">
-                    Namangan shahar , Algoritm o'quv markazi
+                    Namangan shahar, Algoritm o'quv markazi
                   </p>
                 </div>
               </div>
