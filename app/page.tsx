@@ -410,7 +410,7 @@ export default function Home() {
             </h2>
             <p className="text-muted-foreground">
               Karta orqali yoki pul kochirish yo`li bilan to`lov qilishingiz
-              mumkin. 6 oylik kursning 1 oylik to'lovi 1,000,000 so`m. To`lov
+              mumkin. 6 oylik kursning 1 oylik to`lovi 1,000,000 so`m. To`lov
               qilish uchun administratorga murojaat qiling.
             </p>
 
@@ -424,7 +424,7 @@ export default function Home() {
                     2,000,000 so`mlik kurslarni
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Ushbu kurs ichida tekinga qo'lga kiritasiz.
+                    Ushbu kurs ichida tekinga qo`lga kiritasiz.
                   </p>
                 </div>
               </div>
@@ -435,7 +435,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-medium mb-1">
-                    Shoshiling, o'quvchi soni cheklangan
+                    Shoshiling, o`quvchi soni cheklangan
                   </h3>
                   <p className="text-sm text-muted-foreground">
                     Kursga yozilish uchun adminga murojaat qiling
@@ -461,7 +461,7 @@ export default function Home() {
                 <div>
                   <h3 className="font-medium mb-1">Bizning manzilimiz</h3>
                   <p className="text-sm text-muted-foreground">
-                    Namangan shahar, Algoritm o'quv markazi
+                    Namangan shahar, Algoritm o`quv markazi
                   </p>
                 </div>
               </div>
