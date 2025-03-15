@@ -15,7 +15,7 @@ export default function TimelineSection() {
       content:
         "Dasturlash tillari, enterpretator va compilator,ide,python dasturlash tili, o’zgaruvchilar,Data types(int,float,string,boolean…),shart operatorlari(if,elif,else,match case),list,list metodlari(append,insert,del,remove…) ",
       fullContent:
-        "Dasturlash tillari, enterpretator va compilator,ide,python dasturlash tili, o’zgaruvchilar,Data types(int,float,string,boolean…),shart operatorlari(if,elif,else,match case),list,list metodlari(append,insert,del,remove…) list comprehension,nesting list, lug’at,lug’at metodlari,nested dict,tsikl operatorlari (for va while),Funksiyalar,qiymat qaytaruvchi funksiyalar va qiymat qabul qiluvchi funksiyalar,mavhum funksiya (lambda),recursive funksiya,Modul(random,math,hashlib,subprocess,scappy,optparse,socket,requests,os,sys…)",
+        "Dasturlash tillari, enterpretator va compilator,ide,python dasturlash tili, o’zgaruvchilar,Data types(int,float,string,boolean…),shart operatorlari(if,elif,else,match case),list,list metodlari(append,insert,del,remove…) list comprehension,nesting list, lug’at,lug’at metodlari,nested dict,tsikl operatorlari (for va while)Funksiyalar,qiymat qaytaruvchi                funksiyalar va qiymat qabul qiluvchi funksiyalar,mavhum funksiya (lambda),recursive funksiya,Modul(random,math,hashlib,subprocess,scappy,optparse,socket,requests,os,sys…)",
     },
     {
       month: "2-oy",
@@ -79,7 +79,7 @@ Turli CTF, Hackathonlar tashkil qilish va Virtual LAB (tryhackme, hackthebox, ov
         {/* Timeline elementlari */}
         <div className="space-y-3">
           {timelineData.map((item, index) => (
-            <div key={index} className="relative pl-6">
+            <div key={index} className="relative pl-6 ">
               {/* Nuqta */}
               <div className="absolute left-0 w-[18px] h-[18px] bg-primary rounded-full flex items-center justify-center">
                 <span className="text-primary-foreground text-[10px] font-bold">
@@ -132,7 +132,7 @@ Turli CTF, Hackathonlar tashkil qilish va Virtual LAB (tryhackme, hackthebox, ov
               <span className="text-primary text-[10px]">✓</span>
             </div>
 
-            <div className="cyber-border p-2 rounded-lg bg-primary/5">
+            {/* <div className="cyber-border p-2 rounded-lg bg-primary/5">
               <h3 className="text-xs font-bold text-primary mb-1.5 flex items-center gap-1">
                 <Shield className="w-3 h-3" />
                 Natija
@@ -146,7 +146,7 @@ Turli CTF, Hackathonlar tashkil qilish va Virtual LAB (tryhackme, hackthebox, ov
                   Oqituvchi: Malik Kurbanov (shohmalik)
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

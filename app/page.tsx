@@ -15,6 +15,7 @@ import {
   PhoneCall,
   MessageSquare,
   Award,
+  MapPinHouse,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -51,7 +52,7 @@ export default function Home() {
 
       <main className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
-          <h1 className="glitch-text text-4xl md:text-6xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
             Kiberxavfsizlik sohasida yetuk mutaxassis bo’lish uchun 6 oylik
             onlayn o’quv kursi!
           </h1>
@@ -76,12 +77,12 @@ export default function Home() {
                 xodimi bo`lib ishlashingiz mumkin bo`ladi. Ha siz kursdan keyin
                 bemalol ish faoliyatingizni boshlashingiz mumkin , albatta bu
                 doim o`quvchining o`ziga va ma`lumotlarni to`liq
-                o`zlashtirishiga bog`liq. Izlanganga tol yor degnadek, harakat
+                o`zlashtirishiga bog`liq. Izlanganga tole yor degnadek, harakat
                 qilmasangiz shunchaki harajatga kuyib qolasiz!.
               </p>
 
               <p className="text-lg font-medium text-primary text-right">
-                Shu sabab be carefully !
+                Shu sabab be careful !
               </p>
             </div>
           </section>
@@ -100,7 +101,7 @@ export default function Home() {
                   Kursning keyingi bosqichi mavjud,kursni tamomlagandan so’ng
                   sizlar White Hat Hacker (Ethical Hacker) bo’lib yetishasizlar
                   , shundan so’ng hohlovchilar, kuchaytirilgan va hujumkor
-                  jamoaga qo’shilishmoqchi bo’lganlar 3 oylik Red Team intensiv
+                  jamoaga qo’shilmoqchi bo’lganlar 3 oylik Red Team intensiv
                   kursida o’qishingiz mumkin! Unda sohaning alohida bo`limlari
                   yuqori darajadagi bilimlar bilan o`rgatiladi. Kursni
                   tamomlagandan so’ng 2 ta Xalqaro va 1 ta HH Security tomonidan
@@ -335,75 +336,19 @@ export default function Home() {
               ko’rinishida qilinadi , shu sabab kurs natijasi juda yaxshi
               bo’ladi , chunki rejalashtirilmagan targetlarda xarxildagi
               ojizliklar bo’lishi mumkin va o’quvchi buni mustaqil topishni ,
-              bartaraf qilishni o’rganadi . Kurs yakunida umumiy onlayn
-              yig’ilish o’tkaziladi va barchaga yangi egallagan kasblari
-              munosabati bilan tabrik so’zlari beriladi :) ! Eslatib o’taman
-              darslar barchasi real targetlarda bo’ladi , shu sabab dars
-              davomida aloxida VPN Server va boshqa resurslarga ehtiyoj bo’ladi
-              . Darslar kontenti O’zbekiston respublikasi qonunchiligiga zid
-              bo’lmagan xolda tuzilgan va barcha praktikalar boshqa davlatlar
-              resurslari orqali amalga oshiriladi.
+              bartaraf qilishni o’rganadi. Eslatib o’taman darslar barchasi real
+              targetlarda bo’ladi , shu sabab dars davomida aloxida VPN Server
+              va boshqa resurslarga ehtiyoj bo’ladi . Darslar kontenti
+              O’zbekiston Respublikasi qonunchiligiga zid bo’lmagan xolda
+              tuzilgan va barcha praktikalar boshqa davlatlar resurslari orqali
+              amalga oshiriladi.
             </p>
           </div>
         </section>
       </main>
       <section className="w-full max-w-5xl mx-auto mt-16 px-4">
-        <div className="grid md:grid-cols-2 gap-8 items-start">
+        <div className="grid md:grid-cols-2 gap-16 items-start py-10">
           {/* Left Column - Payment Info */}
-          <div className="space-y-8">
-            <h2 className="text-3xl font-bold text-primary">
-              Tolov qanday amalga oshiriladi ?
-            </h2>
-            <p className="text-muted-foreground">
-              Karta orqali yoki pul kochirish yo`li bilan to`lov qilishingiz
-              mumkin. 6 oylik kursning 1 oylik tolovi 1,000,000 so`m. To`lov
-              qilish uchun administratorga murojaat qiling.
-            </p>
-
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
-                  <Plus className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-medium mb-1">
-                    2,000,000 so`mlik kurslarni
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Ushbu kurs ichida tekinga qolga kiritasiz.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
-                  <CheckCircle className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-medium mb-1">
-                    Shoshiling, oquvchi soni cheklangan
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    Kursga yozilish uchun adminga murojaat qiling
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10 text-primary">
-                  <Phone className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-medium mb-1">Kursga yozilish uchun</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Administrator bilan bog`laning va to`lov qiling.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Column - Price Card */}
           <div className="cyber-border p-6 rounded-lg bg-card shadow-lg relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
 
@@ -445,13 +390,85 @@ export default function Home() {
             </div>
 
             <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-              Kursda qatnashaman !
+              <a
+                href="https://t.me/hhsecurity_support"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="max-[1560px]:ml-1 max-[768px]:mx-1 max-[480px]:block max-[480px]:my-1 max-[300px]:inline-block max-[300px]:mt-0.5"
+              >
+                Kursda qatnashaman
+              </a>
             </Button>
 
             <p className="text-center text-xs text-muted-foreground mt-4">
               Copyright [c] 2025
             </p>
           </div>
+          <div className="space-y-8">
+            <h2 className="text-3xl font-bold text-primary">
+              Tolov qanday amalga oshiriladi ?
+            </h2>
+            <p className="text-muted-foreground">
+              Karta orqali yoki pul kochirish yo`li bilan to`lov qilishingiz
+              mumkin. 6 oylik kursning 1 oylik to'lovi 1,000,000 so`m. To`lov
+              qilish uchun administratorga murojaat qiling.
+            </p>
+
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                  <Plus className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-medium mb-1">
+                    2,000,000 so`mlik kurslarni
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Ushbu kurs ichida tekinga qo'lga kiritasiz.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                  <CheckCircle className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-medium mb-1">
+                    Shoshiling, o'quvchi soni cheklangan
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Kursga yozilish uchun adminga murojaat qiling
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                  <Phone className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-medium mb-1">Kursga yozilish uchun</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Administrator bilan bog`laning va to`lov qiling.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                  <MapPinHouse className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-medium mb-1">Bizning manzilimiz</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Namangan shahar , Algoritm o'quv markazi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column - Price Card */}
         </div>
       </section>
     </div>
