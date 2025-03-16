@@ -518,10 +518,10 @@ export default function Home() {
                   <UsersRound className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-1">Bizning o'quvchilar</h3>
+                  <h3 className="font-medium mb-1">Bizning o`quvchilar</h3>
                   <p className="text-sm text-muted-foreground">
                     Hozirda 50 dan ortiq offline va 20 dan ortiq online
-                    o'quvchilar tahsil olmoqda
+                    o`quvchilar tahsil olmoqda
                   </p>
                 </div>
               </div>
