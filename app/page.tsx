@@ -16,6 +16,7 @@ import {
   MessageSquare,
   Award,
   MapPinHouse,
+  UsersRound,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -35,7 +36,7 @@ export default function Home() {
 
           <div className="flex items-center space-x-4">
             <a
-              href="tel:(77)777-77-77"
+              href="tel:(93) 767-31-31"
               className="hidden md:flex items-center space-x-2 text-secondary"
             >
               <Phone />
@@ -68,17 +69,25 @@ export default function Home() {
 
             <div className="space-y-6 text-left">
               <p className="text-muted-foreground">
-                Ushbu kursda siz HH Security tomonidan kiberxavfsizlik uchun
-                zarur bo`lgan bilimlarni o`rganishiz mumkin. Sohaning bir qancha
-                yo`nalishlari mavjud , siz ushbu kursda bu sohalarni barchasiga
-                aloqador bilimlar bilan tanishasiz , ya`ni kurs umumiy va
-                komplekt qilib ishlangan. Kursdan keyin universal bilim darajasi
-                va o`zlashtirishingiz natijasiga qarab , siz kiberxavfsizlik
-                xodimi bo`lib ishlashingiz mumkin bo`ladi. Ha siz kursdan keyin
-                bemalol ish faoliyatingizni boshlashingiz mumkin , albatta bu
-                doim o`quvchining o`ziga va ma`lumotlarni to`liq
-                o`zlashtirishiga bog`liq. Izlanganga tole yor degnadek, harakat
-                qilmasangiz shunchaki harajatga kuyib qolasiz!.
+                Ushbu kursda siz <b>HH Security</b> tomonidan kiberxavfsizlik
+                sohasida zarur bo‘lgan bilimlarni chuqur o‘rganasiz.
+                Kiberxavfsizlik turli yo‘nalishlarni o‘z ichiga olgan keng
+                sohaga ega, ushbu kurs esa ushbu yo‘nalishlarning barchasiga
+                tegishli bo‘lgan kompleks bilimlar to‘plamini o‘z ichiga oladi.
+                Kurs umumiy va mukammal tarzda ishlab chiqilgan bo‘lib, barcha
+                muhim tushunchalar va amaliyotlar bir joyga jamlangan. Kursni
+                muvaffaqiyatli yakunlaganingizdan so‘ng, siz universal bilim
+                darajasiga ega bo‘lasiz va o‘zlashtirish darajangizga qarab
+                kiberxavfsizlik xodimi sifatida ish boshlashingiz mumkin
+                bo‘ladi. Ha, siz kursdan so‘ng bemalol ish faoliyatingizni
+                boshlash imkoniyatiga ega bo‘lasiz, ammo bu, albatta,
+                o‘quvchining o‘z harakati, bilimlarni to‘liq o‘zlashtirishi va
+                amaliy tajribaga ega bo‘lishiga bog‘liq.{" "}
+                <b>Izlaganga tole yor</b> deganidek, agar harakat qilsangiz,
+                ushbu kurs sizni kiberxavfsizlik sohasida yuqori natijalarga
+                olib boradi. Aks holda, faqat vaqt va mablag‘ sarflab
+                qo‘yishingiz mumkin. Shunday ekan, bilim olishga, amaliyot
+                qilishga va o‘zingizni rivojlantirishga tayyor bo‘ling!
               </p>
 
               <p className="text-lg font-medium text-primary text-right">
@@ -90,22 +99,36 @@ export default function Home() {
             <div className="cyber-border p-6 rounded-lg bg-accent/5">
               <p className="text-center text-lg text-primary font-medium mb-6">
                 Dunyoda bu sohani rivojlantirish uchun eng zo’rlari bilan ya’ni
-                HH Security bilan birga bo`ling , bizni jamoamizga qo`shiling !
+                <b> HH Security </b> bilan birga bo`ling, bizni jamoamizga
+                qo`shiling!
               </p>
 
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Kurs yaqindagina mukammal tarzda ishlab chiqildi , ma`lumotlar
-                  juda ko`p , barchasi navbat va tartib bilan berib boriladi.
-                  Ushbu kurs boshlang`ich va dastlabki bilimlarni qamrab oladi.
-                  Kursning keyingi bosqichi mavjud,kursni tamomlagandan so’ng
-                  sizlar White Hat Hacker (Ethical Hacker) bo’lib yetishasizlar
-                  , shundan so’ng hohlovchilar, kuchaytirilgan va hujumkor
-                  jamoaga qo’shilmoqchi bo’lganlar 3 oylik Red Team intensiv
-                  kursida o’qishingiz mumkin! Unda sohaning alohida bo`limlari
-                  yuqori darajadagi bilimlar bilan o`rgatiladi. Kursni
-                  tamomlagandan so’ng 2 ta Xalqaro va 1 ta HH Security tomonidan
-                  beriladigan sertifikatlarga ega bo’lasiz!
+                  Ushbu kurs yaqindagina mukammal tarzda ishlab chiqildi va eng
+                  so‘nggi ma’lumotlar asosida shakllantirildi. Kurs mazmuni juda
+                  keng bo‘lib, barcha bilimlar muayyan tartib va navbat bilan
+                  o‘rgatiladi. Ushbu kurs <b> boshlang‘ich va fundamental </b>
+                  bilimlarni qamrab oladi, bu esa kiberxavfsizlik sohasiga
+                  endigina qadam qo‘yganlar uchun ideal boshlang‘ich nuqtadir.
+                  Kursni muvaffaqiyatli yakunlaganingizdan so‘ng, siz
+                  <b> White Hat Hacker (Ethical Hacker) </b> sifatida
+                  shakllanasiz va kiberxavfsizlik sohasida ishlash uchun yetarli
+                  bilimga ega bo‘lasiz. Biroq, yanada chuqurroq bilim olishni
+                  istaganlar uchun <b> 3 oylik Red Team intensiv kursi </b> ham
+                  mavjud. Ushbu kurs hujumkor kiberxavfsizlik (Offensive
+                  Security) bo‘yicha chuqur bilim berib, kiberhujumlarni
+                  aniqlash, tahlil qilish va ularga qarshi kurashish
+                  yo‘nalishida kuchli mutaxassis bo‘lishingizga yordam beradi.
+                  Kursni muvaffaqiyatli yakunlagan ishtirokchilar
+                  <b> bir nechta xalqaro sertifikatlar </b> hamda
+                  <b>
+                    {" "}
+                    HH Security tomonidan taqdim etiladigan maxsus sertifikat
+                  </b>
+                  ga ega bo‘ladilar. Ushbu sertifikatlar sizning bilim va
+                  malakangizni tasdiqlab, xalqaro darajadagi ish imkoniyatlariga
+                  eshik ochadi!
                 </p>
               </div>
             </div>
@@ -119,16 +142,20 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Kursda hamma ham qatnasha olmaydi, ya’ni – kursda qatnashish
-                    uchun sizda kompyuter savodxonligi va internet-tarmoq haqida
-                    100% amaliy tushunchalar bo’lishi talab qilinadi ,
-                    kompyuterda kamida 1.5 yil ishlagan va o’zi mustaqil biror
-                    muammoni yecha oladigan darajada bo’lishi zarur. O’zingizni
-                    shu sohada ko’ra olsangiz va boshlang’ich bilimingizga
-                    ishonsangiz , doimiy nazoratda o’qishni ko’tara olsangiz siz
-                    bu kursda o’qishingiz mumkin , chala va sifatsiz kadr
-                    chiqarish sizni ham bekorga vaqtingizni olish niyatimiz yo’q
-                    , shu sabab
+                    Kursda hamma ham qatnasha olmaydi. Kursga yozilish uchun
+                    kompyuter savodxonligi va internet tarmoqlari haqida 100%
+                    amaliy tushunchaga ega bo‘lish talab etiladi. Shuningdek,
+                    kamida 1,5 yil kompyuter bilan ishlash tajribangiz bo‘lishi
+                    va mustaqil ravishda muammolarni hal qila olish
+                    qobiliyatingiz talab qilinadi. Agar siz kiberxavfsizlik
+                    sohasida o‘zingizni ko‘ra olsangiz, boshlang‘ich
+                    bilimlaringizga ishonsangiz va doimiy nazorat ostida o‘qish
+                    jarayonini qabul qila olsangiz, ushbu kursda o‘qish
+                    imkoniyatiga ega bo‘lasiz. Bizning maqsadimiz – sifatli va
+                    bilimli kadrlar yetishtirish, shunchaki kursni tugatgan,
+                    lekin real muammolarni hal qila olmaydigan ishtirokchilarni
+                    chiqarish emas. Shu sababli, faqat chinakam qiziqish va
+                    qat’iyatga ega bo‘lgan nomzodlar kursga qabul qilinadi❗️
                     <span className="font-black"> please think again!</span>
                   </p>
                 </div>
@@ -147,7 +174,7 @@ export default function Home() {
                       O`quvchilar soni
                     </h3>
                     <p className="text-muted-foreground">
-                      O’quvchilar qabul soni cheklangan,ya’ni 2 ta guruh qabul
+                      O’quvchilar qabul soni cheklangan, ya’ni 2 ta guruh qabul
                       qilinadi, har bir guruh maximum 15 kishidan iborat
                       bo’lishi mumkin.
                     </p>
@@ -158,7 +185,7 @@ export default function Home() {
                       Dars jadvali
                     </h3>
                     <p className="text-muted-foreground">
-                      Dars haftasiga 3 kun, 2-3 saotdan bo’ladi.
+                      Dars haftasiga 3 kun, 2-3 soatdan bo’ladi.
                     </p>
                   </div>
 
@@ -177,10 +204,10 @@ export default function Home() {
                       Dars vaqti
                     </h3>
                     <p className="text-muted-foreground">
-                      Darslar xammasi , doim kechqurun 20:00 (o’quvchilar bilan
+                      Darslar xammasi, doim kechqurun 20:00 (o’quvchilar bilan
                       kelishib o’zgartirilishi mumkin) dan keyin o’tiladi,
                       xaftada 3 kun dars, qolgan kunlar vazifalar bajariladi,
-                      amaliyot va savol-javob qilinadi.. Sizlarni barcha
+                      amaliyot va savol-javob qilinadi. Sizlarni barcha
                       savollaringizga doimiy ravishda 24/7 supportlar tomonidan
                       javob olasiz!
                     </p>
@@ -200,52 +227,59 @@ export default function Home() {
                 Bonus imkoniyatlar
               </h2>
               <p className="text-primary font-medium mb-6 max-[1560px]:text-lg max-[1560px]:max-w-4xl max-[1560px]:mb-8 max-[768px]:text-base max-[768px]:mb-5 max-[480px]:mb-4 max-[300px]:mb-3 max-[480px]:text-sm max-[300px]:text-xs">
-                Bonus sifatida `quvchilarga doimiy foydalanish uchun kurs ichida
-                tekinga beriladi 😎
+                Bonus sifatida o`quvchilarga doimiy foydalanish uchun kurs
+                ichida tekinga beriladi 😎
               </p>
 
               <div className="grid gap-6 max-[1560px]:grid-cols-1 max-[1560px]:gap-8 max-[768px]:gap-6 max-[480px]:gap-4 max-[300px]:gap-3">
                 <div className="cyber-border p-4 max-[1560px]:p-6 max-[768px]:p-5 max-[480px]:p-4 max-[300px]:p-2 rounded-lg bg-accent/5 hover:bg-accent/10 transition-colors">
                   <p className="text-muted-foreground max-[1560px]:text-base max-[768px]:text-base max-[480px]:text-sm max-[300px]:text-xs">
-                    Ma`lumot uchun bizda aloxida ishlangan bir nechta kurslar
-                    bor va bu kurslar o`quvchilarga o`tiladigan mavzuga qarab
-                    o`rganish uchun beriladi.O`quvchilarga kurs davomida xalqaro
-                    Kiberxavfsizlikga aloqador sertifikatlar olish uchun optimal
-                    yo`l xaritasi o`rgatiladi va ishga kirish uchun zarur
-                    bo`lgan barcha texnik va amaliy yordam
-                    ko`rsatiladi(rezyume,cv,report,suhbatga tayyorlov). Bu
-                    yordam sizga ishga kirishda nafaqat O`zbekistonda balki
-                    butun dunyo bo`yicha katta imkoniyat beradi. Kursimiz asosan
-                    ish vaqtida real tasklarda zarur bilimlar bilan to`ldirilgan
-                    , ba`zi sertifikatlar uchun admin tomonidan aloxida support
-                    qilinadi (agar o`quvchi keyinchalik olmoqchi bo`lsa).
+                    Bizda alohida ishlab chiqilgan bir nechta kurslar mavjud
+                    bo‘lib, ular o‘quvchilarga o‘rganilayotgan mavzularga qarab
+                    taqdim etiladi. Kurs davomida o‘quvchilarga xalqaro
+                    kiberxavfsizlik sertifikatlarini olish uchun optimal yo‘l
+                    xaritasi o‘rgatiladi. Shuningdek, ishga kirish jarayonida
+                    zarur bo‘lgan texnik va amaliy yordam ko‘rsatiladi,
+                    jumladan: Rezyume (CV) tayyorlash Report yozish Ish suhbati
+                    (intervyu)ga tayyorlanish Bu yordam sizga faqat
+                    O‘zbekistonda emas, balki butun dunyo bo‘ylab ishga
+                    joylashishda katta imkoniyat yaratadi. Kursimiz ish vaqtida
+                    real topshiriqlar orqali to‘ldirilgan bo‘lib, unda zarur
+                    bilimlar amaliy tarzda o‘rgatiladi. Bundan tashqari, ba’zi
+                    xalqaro sertifikatlar uchun administrator tomonidan alohida
+                    support (qo‘llab-quvvatlash) taqdim etiladi, agar o‘quvchi
+                    keyinchalik ushbu sertifikatlarni olishga qaror qilsa. ✅
                   </p>
                 </div>
 
                 <div className="cyber-border p-4 max-[1560px]:p-6 max-[768px]:p-5 max-[480px]:p-4 max-[300px]:p-2 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
                   <h3 className="text-primary font-medium mb-3 max-[1560px]:text-xl max-[1560px]:mb-4 max-[768px]:text-lg max-[768px]:mb-3 max-[480px]:text-base max-[480px]:mb-2 max-[300px]:mb-1 max-[300px]:text-sm">
-                    Amaliy talim
+                    Amaliy ta`lim
                   </h3>
                   <p className="text-muted-foreground max-[1560px]:text-base max-[768px]:text-base max-[480px]:text-sm max-[300px]:text-xs">
-                    Kurs davomida 100% amaliyotda siz tarmoq resurslari,
-                    dasturiy ta`minot, veb-resurslar zaifliklarini batafsil
-                    tahlil qilishni, ulardan ximoyalanishni o`rganasiz. Siz
-                    hujumning eng keng tarqalgan ssenariylari bilan tanishasiz
-                    va keyinchalik ularni osonlikcha taniysiz va bartaraf
-                    qilaolasiz . Viruslarni analiz qilish , tekshirish va
-                    ximoyalanish bo`yicha mukammal bilimga ega bo`lasiz.
+                    <b>
+                      Kurs davomida 100% amaliyot asosida siz tarmoq resurslari,
+                      dasturiy ta’minot va veb-resurslar zaifliklarini batafsil
+                      tahlil qilishni hamda ulardan himoyalanish usullarini
+                      o‘rganasiz. Siz hujumlarning eng keng tarqalgan
+                      ssenariylari bilan tanishib, keyinchalik ularni osonlikcha
+                      aniqlash va bartaraf etish ko‘nikmalariga ega bo‘lasiz.
+                      Viruslarni tahlil qilish, zararli dasturlarni tekshirish
+                      va ulardan himoyalanish bo‘yicha chuqur bilim olasiz.
+                    </b>
                   </p>
                 </div>
 
                 <div className="cyber-border p-4 max-[1560px]:p-6 max-[768px]:p-5 max-[480px]:p-4 max-[300px]:p-2 rounded-lg bg-accent/5 hover:bg-accent/10 transition-colors">
                   <p className="text-muted-foreground max-[1560px]:text-base max-[768px]:text-base max-[480px]:text-sm max-[300px]:text-xs">
                     Axborot tizimi yoki dastur xavfsizligini tahlil qilish uchun
-                    zamonaviy vositalardan foydalanishni , zaif tomonlarni
-                    tasnifi va ularni tuzatish usullari , muntazam vazifalarni
-                    avtomatlashtirish uchun dasturlash qobiliyatlari , topilgan
-                    ojizlik va kamchiliklarni jamlagan mukammal report yozishni
-                    va bilimingizni sertifikatlashtirish uchun zarur bo`lgan
-                    bilimlarga ega bo`lasiz.
+                    zamonaviy vositalardan samarali foydalanish, zaif tomonlarni
+                    aniqlash, tasniflash va ularni bartaraf etish usullarini
+                    o‘rganasiz. Muntazam vazifalarni avtomatlashtirish uchun
+                    dasturlash qobiliyatlari, topilgan zaifliklar bo‘yicha
+                    batafsil va mukammal report tayyorlash, shuningdek,
+                    bilimingizni sertifikatlashtirish uchun zarur bo‘lgan bilim
+                    va ko‘nikmalarga ega bo‘lasiz.
                   </p>
                 </div>
 
@@ -260,8 +294,8 @@ export default function Home() {
                       </h3>
                       <p className="text-muted-foreground max-[1560px]:text-base max-[768px]:text-base max-[480px]:text-sm max-[300px]:text-xs">
                         <span className="text-primary font-medium">
-                          Ushbu kursda qatnashgan o`quvchilar uchun doimiy
-                          alohida support admin
+                          Ushbu kursda qatnashgan o‘quvchilar uchun doimiy
+                          ravishda alohida support admin
                           <Link
                             href="https://t.me/hhsecurity_support"
                             target="_blank"
@@ -269,14 +303,15 @@ export default function Home() {
                           >
                             (@hhsecurity_support)
                           </Link>
-                          tomonidan taqdim qilinadi ,
+                          tomonidan qo‘llab-quvvatlash taqdim etiladi.
                         </span>
-                        sababi kursni yakunlagan o`quvchilar ishga tayyor hodim
-                        bo`lishadi va keyinchalik ishda duch keladigan
-                        muammolarda biz bilan bog`lanib muammoni yechimini
-                        topishda yordam beriladi , umuman kurs kontenti , rejasi
-                        juda katta va hamma kerakli ma`lumotlarni o`z ichiga
-                        olgan.
+                        Kursni muvaffaqiyatli yakunlagan o‘quvchilar ishga
+                        tayyor mutaxassis bo‘lishadi va kelajakda ish jarayonida
+                        duch keladigan muammolar yuzasidan biz bilan bog‘lanib,
+                        ularning yechimini topishda yordam olishlari mumkin.
+                        Kurs kontenti va rejasi juda keng qamrovli bo‘lib,
+                        kiberxavfsizlik sohasida zarur bo‘lgan barcha muhim
+                        ma’lumotlarni o‘z ichiga oladi.
                       </p>
                     </div>
                   </div>
@@ -284,24 +319,29 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="cyber-border p-6 max-[1560px]:p-8 max-[768px]:p-5 max-[480px]:p-4 max-[300px]:p-3 rounded-lg bg-accent/5">
-              <h2 className="text-xl max-[1560px]:text-2xl max-[768px]:text-xl max-[480px]:text-lg max-[300px]:text-base font-bold text-primary mb-6 max-[1560px]:mb-8 max-[768px]:mb-5 max-[480px]:mb-4 max-[300px]:mb-3">
-                Mavzuga oid kalit sozlar bilan pastda tanishing :
+            <div className="cyber-border p-6 2xl:p-8 md:p-5 sm:p-4 rounded-lg bg-accent/5">
+              <h2 className="text-xl 2xl:text-2xl md:text-xl sm:text-lg font-bold text-primary mb-6 2xl:mb-8 md:mb-5 sm:mb-4">
+                Mavzuga oid kalit so‘zlar bilan pastda tanishing:
               </h2>
-              <div className="flex flex-wrap gap-2 max-[1560px]:gap-3 max-[768px]:gap-2.5 max-[480px]:gap-2 max-[300px]:gap-1.5">
+              <div className="flex flex-wrap gap-2 2xl:gap-3 md:gap-2.5 sm:gap-2">
                 {[
                   "Kiberxavfsizlik",
                   "Tarmoq xavfsizligi",
+                  "Tarmoq tuzilishi",
+                  "Firewall",
+                  "Dasturlash tillari",
                   "Malware analiz",
                   "Penetration testing",
                   "Xavfsizlik auditi",
                   "Zaifliklar analizi",
+                  "Antiviruslar",
+                  "Tizim xavfsizligi",
                   "Xavfsizlik monitoring",
                   "Incident Response",
-                ].map((keyword) => (
+                ].map((keyword, index) => (
                   <span
-                    key={keyword}
-                    className="px-3 max-[1560px]:px-4 max-[1560px]:py-2 max-[768px]:px-3 max-[768px]:py-1.5 max-[480px]:px-2.5 max-[480px]:py-1 max-[1560px]:text-base max-[768px]:text-sm max-[300px]:px-2 py-1 max-[300px]:py-0.5 rounded-full cyber-border bg-primary/5 text-sm max-[480px]:text-xs max-[300px]:text-[10px] text-primary hover:bg-primary/10 transition-colors cursor-default"
+                    key={index}
+                    className="px-3 2xl:px-4 md:px-3 sm:px-2.5 py-1 md:py-1.5 sm:py-1 rounded-full cyber-border bg-primary/5 text-sm sm:text-xs text-primary hover:bg-primary/10 transition-colors cursor-pointer"
                   >
                     {keyword}
                   </span>
@@ -312,7 +352,7 @@ export default function Home() {
           <section className="w-full max-w-3xl mx-auto mt-12">
             <div className="cyber-border p-6 rounded-lg bg-accent/5">
               <h2 className="text-xl font-bold text-primary mb-8">
-                Kurs rejasi va mavzular
+                Kurs rejasi va mavzular📃
               </h2>
 
               <div className="relative">
@@ -331,17 +371,23 @@ export default function Home() {
 
           <div className="space-y-6 text-left">
             <p className="text-muted-foreground">
-              Butun kurs davomida biz xech qanday virtual targetlardan
-              foydalanmaymiz , barcha darslar real targetlarda 100% amaliyot
-              ko’rinishida qilinadi , shu sabab kurs natijasi juda yaxshi
-              bo’ladi , chunki rejalashtirilmagan targetlarda xarxildagi
-              ojizliklar bo’lishi mumkin va o’quvchi buni mustaqil topishni ,
-              bartaraf qilishni o’rganadi. Eslatib o’taman darslar barchasi real
-              targetlarda bo’ladi , shu sabab dars davomida aloxida VPN Server
-              va boshqa resurslarga ehtiyoj bo’ladi . Darslar kontenti
-              O’zbekiston Respublikasi qonunchiligiga zid bo’lmagan xolda
-              tuzilgan va barcha praktikalar boshqa davlatlar resurslari orqali
-              amalga oshiriladi.
+              Butun kurs davomida biz hech qanday virtual targetlardan
+              foydalanmaymiz, barcha darslar 100% real targetlar ustida amaliyot
+              tarzida olib boriladi. Bu yondashuv kurs natijasining yuqori
+              bo‘lishini ta’minlaydi, chunki rejalashtirilgan, sun’iy yaratilgan
+              targetlar odatda oldindan ma’lum bo‘lgan zaifliklarga ega bo‘ladi,
+              bu esa haqiqiy tajriba orttirishga to‘sqinlik qilishi mumkin. Kurs
+              ishtirokchilari real tizimlardagi turli zaifliklarni mustaqil
+              aniqlash, ekspluatatsiya qilish va ularni bartaraf etishni
+              o‘rganadilar. Shuni alohida ta’kidlash lozimki, barcha darslar
+              real targetlar ustida olib boriladi, shu sababli dars davomida
+              alohida VPN serverlar va maxsus resurslardan foydalanish talab
+              etiladi. O‘quv jarayoni O‘zbekiston Respublikasi qonunchiligiga
+              zid bo‘lmagan tarzda tashkil etilgan bo‘lib, barcha amaliy
+              mashg‘ulotlar xalqaro resurslar va boshqa davlatlarga tegishli
+              tizimlar orqali amalga oshiriladi. Bu yondashuv kiberxavfsizlik
+              bo‘yicha haqiqiy tajribaga ega bo‘lish, xavfsizlik zaifliklarini
+              aniq va samarali bartaraf etishni o‘rganish imkonini beradi🔐
             </p>
           </div>
         </section>
@@ -349,7 +395,7 @@ export default function Home() {
       <section className="w-full max-w-5xl mx-auto mt-16 px-4">
         <div className="grid md:grid-cols-2 gap-16 items-start py-10">
           {/* Left Column - Payment Info */}
-          <div className="cyber-border p-6 rounded-lg bg-card shadow-lg relative overflow-hidden">
+          <div className="cyber-border p-6 rounded-lg py-14 bg-card shadow-lg relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
 
             <div className="mb-6">
@@ -358,18 +404,20 @@ export default function Home() {
                   6 oylik Umumiy kursning narxi
                 </span>
                 <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Chegirma bor
+                  ✅ Chegirma mavjud
                 </span>
               </div>
-              <h3 className="text-4xl font-bold text-primary">6 million</h3>
+              <h3 className="text-4xl font-bold text-primary">
+                💰 6 million so‘m
+              </h3>
             </div>
 
             <div className="space-y-4 mb-8">
               {[
                 { icon: Video, text: "Full HD sifatdagi videodarslar" },
-                { icon: FileText, text: "O'quv materiallari" },
-                { icon: Book, text: "O'zbek tilidagi PDF kitob" },
-                { icon: PhoneCall, text: "O'qituvchi bilan doimiy aloqa" },
+                { icon: FileText, text: "O‘quv materiallari" },
+                { icon: Book, text: "O‘zbek tilidagi PDF kitoblar" },
+                { icon: PhoneCall, text: "O‘qituvchi bilan doimiy aloqa" },
                 { icon: MessageSquare, text: "Umumiy guruh chat" },
                 {
                   icon: Shield,
@@ -406,12 +454,13 @@ export default function Home() {
           </div>
           <div className="space-y-8">
             <h2 className="text-3xl font-bold text-primary">
-              Tolov qanday amalga oshiriladi ?
+              To‘lov qanday amalga oshiriladi?
             </h2>
             <p className="text-muted-foreground">
-              Karta orqali yoki pul kochirish yo`li bilan to`lov qilishingiz
-              mumkin. 6 oylik kursning 1 oylik to`lovi 1,000,000 so`m. To`lov
-              qilish uchun administratorga murojaat qiling.
+              💳 To‘lovni karta orqali yoki pul o‘tkazish yo‘li bilan amalga
+              oshirishingiz mumkin. 📅 6 oylik kursning 1 oylik to‘lovi –
+              1,000,000 so‘m. To‘lov qilish uchun administratorga murojaat
+              qiling.
             </p>
 
             <div className="space-y-6">
@@ -421,10 +470,10 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-medium mb-1">
-                    2,000,000 so`mlik kurslarni
+                    2,000,000 so‘mlik kurslarni
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Ushbu kurs ichida tekinga qo`lga kiritasiz.
+                    Ushbu kurs ichida bepul qo‘lga kiritasiz!
                   </p>
                 </div>
               </div>
@@ -435,14 +484,13 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-medium mb-1">
-                    Shoshiling, o`quvchi soni cheklangan
+                    Shoshiling, o‘quvchilar soni cheklangan!
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Kursga yozilish uchun adminga murojaat qiling
+                    Kursga yozilish uchun administratorga murojaat qiling.
                   </p>
                 </div>
               </div>
-
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10 text-primary">
                   <Phone className="w-6 h-6" />
@@ -459,9 +507,21 @@ export default function Home() {
                   <MapPinHouse className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-1">Bizning manzilimiz</h3>
+                  <h3 className="font-medium mb-1">Bizning manzil:</h3>
                   <p className="text-sm text-muted-foreground">
-                    Namangan shahar, Algoritm o`quv markazi
+                    Namangan shahri, Algoritm o‘quv markazi.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10 text-primary">
+                  <UsersRound className="w-6 h-6" />
+                </div>
+                <div>
+                  <h3 className="font-medium mb-1">Bizning o'quvchilar</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Hozirda 50 dan ortiq offline va 20 dan ortiq online
+                    o'quvchilar tahsil olmoqda
                   </p>
                 </div>
               </div>
