@@ -91,7 +91,7 @@ export default function Home() {
               </p>
 
               <p className="text-lg font-medium text-primary text-right">
-                Shu sabab be careful !
+                Shu sabab <b>be mindful!</b>
               </p>
             </div>
           </section>
