@@ -40,10 +40,10 @@ export default function Home() {
               className="hidden md:flex items-center space-x-2 text-secondary"
             >
               <Phone />
-              <span> (+998 93) 767-31-31</span>
+              <span> (+998 77) 306-31-31</span>
             </a>
             <Button className="cyber-border bg-accent/10 text-primary hover:bg-accent/20">
-              <Link href="https://t.me/hhsecurity_support" target="_blank">
+              <Link href="https://t.me/hhubadmin_bot" target="_blank">
                 Biz bilan aloqa
               </Link>
             </Button>
@@ -69,7 +69,7 @@ export default function Home() {
 
             <div className="space-y-6 text-left">
               <p className="text-muted-foreground">
-                Ushbu kursda siz <b>HH Security</b> tomonidan kiberxavfsizlik
+                Ushbu kursda siz <b>HACKERS HUB</b> tomonidan kiberxavfsizlik
                 sohasida zarur bo‘lgan bilimlarni chuqur o‘rganasiz.
                 Kiberxavfsizlik turli yo‘nalishlarni o‘z ichiga olgan keng
                 sohaga ega, ushbu kurs esa ushbu yo‘nalishlarning barchasiga
@@ -99,7 +99,7 @@ export default function Home() {
             <div className="cyber-border p-6 rounded-lg bg-accent/5">
               <p className="text-center text-lg text-primary font-medium mb-6">
                 Dunyoda bu sohani rivojlantirish uchun eng zo’rlari bilan ya’ni
-                <b> HH Security </b> bilan birga bo`ling, bizni jamoamizga
+                <b> HACKERS HUB </b> bilan birga bo`ling, bizni jamoamizga
                 qo`shiling!
               </p>
 
@@ -124,7 +124,7 @@ export default function Home() {
                   <b> bir nechta xalqaro sertifikatlar </b> hamda
                   <b>
                     {" "}
-                    HH Security tomonidan taqdim etiladigan maxsus sertifikat
+                    HACKERS HUB tomonidan taqdim etiladigan maxsus sertifikat
                   </b>
                   ga ega bo‘ladilar. Ushbu sertifikatlar sizning bilim va
                   malakangizni tasdiqlab, xalqaro darajadagi ish imkoniyatlariga
@@ -142,20 +142,13 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    Kursda hamma ham qatnasha olmaydi. Kursga yozilish uchun
-                    kompyuter savodxonligi va internet tarmoqlari haqida 100%
-                    amaliy tushunchaga ega bo‘lish talab etiladi. Shuningdek,
-                    kamida 1,5 yil kompyuter bilan ishlash tajribangiz bo‘lishi
-                    va mustaqil ravishda muammolarni hal qila olish
-                    qobiliyatingiz talab qilinadi. Agar siz kiberxavfsizlik
-                    sohasida o‘zingizni ko‘ra olsangiz, boshlang‘ich
-                    bilimlaringizga ishonsangiz va doimiy nazorat ostida o‘qish
-                    jarayonini qabul qila olsangiz, ushbu kursda o‘qish
-                    imkoniyatiga ega bo‘lasiz. Bizning maqsadimiz – sifatli va
-                    bilimli kadrlar yetishtirish, shunchaki kursni tugatgan,
-                    lekin real muammolarni hal qila olmaydigan ishtirokchilarni
-                    chiqarish emas. Shu sababli, faqat chinakam qiziqish va
-                    qat’iyatga ega bo‘lgan nomzodlar kursga qabul qilinadi❗️
+                   Kursda hamma ham qatnasha olmaydi, biroq bizning kursda boshlang‘ich bilimga ega bo‘lganlar, hatto noldan boshlovchilar ham o‘qishi mumkin. O‘quv jarayoni kompyuter savodxonligi va internet tarmoqlari asoslaridan boshlab, bosqichma-bosqich kiberxavfsizlik yo‘nalishigacha olib boriladi.
+
+Kurs davomida sizdan eng muhimi — o‘rganishga bo‘lgan qiziqish, mas’uliyat va qat’iyat talab etiladi. Amaliy mashg‘ulotlarga tayyor bo‘lish, mustaqil fikrlashga intilish va berilgan vazifalarni oxirigacha bajarish qobiliyati muhim hisoblanadi.
+
+Agar siz kiberxavfsizlik sohasida o‘zingizni ko‘ra olsangiz, bilimlarni noldan bo‘lsa ham jiddiy va tizimli tarzda o‘zlashtirishga tayyor bo‘lsangiz hamda doimiy nazorat ostidagi o‘quv jarayonini qabul qila olsangiz, ushbu kursda o‘qish imkoniyatiga egasiz.
+
+Bizning maqsadimiz — noldan boshlab real muammolarni hal qila oladigan, amaliy bilimga ega kadrlar yetishtirish. Shunchaki sertifikat olib chiqadigan emas, balki haqiqiy mutaxassis bo‘lishni istagan nomzodlargina kursga qabul qilinadi❗️
                     <span className="font-black"> please think again!</span>
                   </p>
                 </div>
@@ -185,7 +178,7 @@ export default function Home() {
                       Dars jadvali
                     </h3>
                     <p className="text-muted-foreground">
-                      Dars haftasiga 3 kun, 2-3 soatdan bo’ladi.
+                      Dars haftasiga 4 kun, 2-3 soatdan bo’ladi.
                     </p>
                   </div>
 
@@ -206,7 +199,7 @@ export default function Home() {
                     <p className="text-muted-foreground">
                       Darslar xammasi, doim kechqurun 20:00 (o’quvchilar bilan
                       kelishib o’zgartirilishi mumkin) dan keyin o’tiladi,
-                      xaftada 3 kun dars, qolgan kunlar vazifalar bajariladi,
+                      xaftada 4 kun dars, qolgan kunlar vazifalar bajariladi,
                       amaliyot va savol-javob qilinadi. Sizlarni barcha
                       savollaringizga doimiy ravishda 24/7 supportlar tomonidan
                       javob olasiz!
@@ -297,15 +290,15 @@ export default function Home() {
                           Ushbu kursda qatnashgan o‘quvchilar uchun doimiy
                           ravishda alohida support admin
                           <Link
-                            href="https://t.me/hhsecurity_support"
+                            href="https://t.me/hhubadmin_bot"
                             target="_blank"
                             className="max-[1560px]:ml-1 max-[768px]:mx-1 max-[480px]:block max-[480px]:my-1 max-[300px]:inline-block max-[300px]:mt-0.5"
                           >
-                            (@hhsecurity_support)
+                            (@hackers_hub_support)   
                           </Link>
-                          tomonidan qo‘llab-quvvatlash taqdim etiladi.
+                           tomonidan qo‘llab-quvvatlash taqdim etiladi.
                         </span>
-                        Kursni muvaffaqiyatli yakunlagan o‘quvchilar ishga
+                         Kursni muvaffaqiyatli yakunlagan o‘quvchilar ishga
                         tayyor mutaxassis bo‘lishadi va kelajakda ish jarayonida
                         duch keladigan muammolar yuzasidan biz bilan bog‘lanib,
                         ularning yechimini topishda yordam olishlari mumkin.
@@ -408,7 +401,7 @@ export default function Home() {
                 </span>
               </div>
               <h3 className="text-4xl font-bold text-primary">
-                💰 6 million so‘m
+                💰 12 million so‘m
               </h3>
             </div>
 
@@ -439,7 +432,7 @@ export default function Home() {
 
             <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
               <a
-                href="https://t.me/hhsecurity_support"
+                href="https://t.me/hhubadmin_bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-[1560px]:ml-1 max-[768px]:mx-1 max-[480px]:block max-[480px]:my-1 max-[300px]:inline-block max-[300px]:mt-0.5"
@@ -459,7 +452,7 @@ export default function Home() {
             <p className="text-muted-foreground">
               💳 To‘lovni karta orqali yoki pul o‘tkazish yo‘li bilan amalga
               oshirishingiz mumkin. 📅 6 oylik kursning 1 oylik to‘lovi –
-              1,000,000 so‘m. To‘lov qilish uchun administratorga murojaat
+              2,000,000 so‘m. To‘lov qilish uchun administratorga murojaat
               qiling.
             </p>
 
@@ -509,7 +502,7 @@ export default function Home() {
                 <div>
                   <h3 className="font-medium mb-1">Bizning manzil:</h3>
                   <p className="text-sm text-muted-foreground">
-                    Namangan shahri, Algoritm o‘quv markazi.
+                    Namangan shahri, Hackers Hub Kiberxavfsizlik va Axloqiy xakerlikka asoslangan markaz
                   </p>
                 </div>
               </div>
