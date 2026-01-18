@@ -28,8 +28,8 @@ export default function Home() {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="../assets/Asset 1.svg"
-              width={200}
-              height={20}
+              width={50}
+              height={5}
               alt="Picture of the author"
             />
           </Link>
