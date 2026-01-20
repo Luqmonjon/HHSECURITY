@@ -513,7 +513,7 @@ Bizning maqsadimiz — noldan boshlab real muammolarni hal qila oladigan, amaliy
                 <div>
                   <h3 className="font-medium mb-1">Bizning o`quvchilar</h3>
                   <p className="text-sm text-muted-foreground">
-                    Hozirda 50 dan ortiq offline va 20 dan ortiq online
+                    Hozirda 200 dan ortiq offline va 50 dan ortiq online
                     o`quvchilar tahsil olmoqda
                   </p>
                 </div>
