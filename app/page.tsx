@@ -36,7 +36,7 @@ export default function Home() {
 
           <div className="flex items-center space-x-4">
             <a
-              href="tel:998 77 306-31-31"
+              href="tel:+998 77 306-31-31"
               className="hidden md:flex items-center space-x-2 text-secondary"
             >
               <Phone />
