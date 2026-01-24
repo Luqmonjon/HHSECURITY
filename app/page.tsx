@@ -43,7 +43,7 @@ export default function Home() {
               <span> (+998 77) 306-31-31</span>
             </a>
             <Button className="cyber-border bg-accent/10 text-primary hover:bg-accent/20">
-              <Link href="https://t.me/hhubadmin_bot" target="_blank">
+              <Link href="https://t.me/hhub_admin_uz" target="_blank">
                 Biz bilan aloqa
               </Link>
             </Button>
@@ -290,7 +290,7 @@ Bizning maqsadimiz — noldan boshlab real muammolarni hal qila oladigan, amaliy
                           Ushbu kursda qatnashgan o‘quvchilar uchun doimiy
                           ravishda alohida support admin
                           <Link
-                            href="https://t.me/hhubadmin_bot"
+                            href="https://t.me/hhub_admin_uz"
                             target="_blank"
                             className="max-[1560px]:ml-1 max-[768px]:mx-1 max-[480px]:block max-[480px]:my-1 max-[300px]:inline-block max-[300px]:mt-0.5"
                           >
@@ -432,7 +432,7 @@ Bizning maqsadimiz — noldan boshlab real muammolarni hal qila oladigan, amaliy
 
             <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
               <a
-                href="https://t.me/hhubadmin_bot"
+                href="https://t.me/hhub_admin_uz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-[1560px]:ml-1 max-[768px]:mx-1 max-[480px]:block max-[480px]:my-1 max-[300px]:inline-block max-[300px]:mt-0.5"
