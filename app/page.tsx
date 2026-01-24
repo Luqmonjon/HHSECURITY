@@ -40,7 +40,7 @@ export default function Home() {
               className="hidden md:flex items-center space-x-2 text-secondary"
             >
               <Phone />
-              <span> (+998 77) 306-31-31</span>
+              <span> +998 77 306-31-31</span>
             </a>
             <Button className="cyber-border bg-accent/10 text-primary hover:bg-accent/20">
               <Link href="https://t.me/hhub_admin_uz" target="_blank">
